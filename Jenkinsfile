@@ -1,6 +1,6 @@
 node("dotnet21") {
           stage("echo") {
-            println("Hello World from dotnet21")
+            println("Hello World 3rd Oct from dotnet21")
             sh 'dotnet --info'
           }
 }
